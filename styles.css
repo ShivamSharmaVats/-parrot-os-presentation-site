@@ -28,6 +28,7 @@ body {
     linear-gradient(180deg, #070a0f 0%, #0b1118 100%);
   color: var(--text);
   line-height: 1.65;
+  padding-top: 5.2rem;
 }
 
 .hero {
@@ -42,8 +43,8 @@ body {
 }
 
 .nav {
-  max-width: 1180px;
-  margin: 0 auto;
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -53,9 +54,11 @@ body {
   border-radius: 999px;
   backdrop-filter: blur(6px);
   background: rgba(10, 16, 24, 0.74);
-  position: sticky;
+  position: fixed;
   top: 0.75rem;
-  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
 }
 
 .nav a {
@@ -465,6 +468,10 @@ h3 {
 }
 
 @media (max-width: 700px) {
+  body {
+    padding-top: 5.6rem;
+  }
+
   .hero {
     min-height: auto;
     padding-bottom: 1.5rem;
