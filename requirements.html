@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parrot OS | Requirements</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero compact" id="top">
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="history.html">History</a>
+      <a class="current" href="requirements.html">Requirements</a>
+      <a href="security.html">Security</a>
+      <a href="download.html">Download</a>
+    </nav>
+    <div class="hero-inner">
+      <p class="eyebrow">Parrot OS</p>
+      <h1>System Requirements & Compatibility</h1>
+      <div class="hero-actions">
+        <a class="btn" href="security.html">Next: Security</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>What Does It Need To Run?</h2>
+      <div class="grid two">
+        <article class="card media-card">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Computer hardware close-up" loading="lazy" />
+          <div>
+            <h3>Minimum</h3>
+            <ul>
+              <li>64-bit CPU (x86_64/amd64)</li>
+              <li>4 GB RAM</li>
+              <li>40+ GB storage</li>
+              <li>USB drive for live boot/install</li>
+            </ul>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Recommended</h3>
+          <ul>
+            <li>Quad-core 64-bit processor</li>
+            <li>8-16 GB RAM</li>
+            <li>80+ GB SSD</li>
+            <li>Virtualization support (VT-x/AMD-V)</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Availability / Target Devices</h2>
+      <div class="grid three">
+        <article class="card">
+          <h3>Device Types</h3>
+          <ul>
+            <li>Laptops and desktops</li>
+            <li>Virtual machines</li>
+            <li>WSL on Windows</li>
+            <li>Raspberry Pi builds</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>CPU Compatibility</h3>
+          <ul>
+            <li>Mainstream: x86_64</li>
+            <li>ARM supported in specific builds</li>
+            <li>Power/RISC-V not common official targets</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>File System Support</h3>
+          <ul>
+            <li>ext4 (common default)</li>
+            <li>NTFS, FAT32, exFAT interoperability</li>
+            <li>Other Linux file systems through kernel support</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="grid two">
+        <article class="card">
+          <h3>GPU Compatibility</h3>
+          <ul>
+            <li>NVIDIA RTX and legacy NVIDIA with Linux drivers</li>
+            <li>AMD Radeon modern stack supported</li>
+            <li>Enterprise GPU virtualization is possible in special setups</li>
+          </ul>
+        </article>
+        <article class="card media-card">
+          <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=900&q=80" alt="Networking cables and devices" loading="lazy" />
+          <div>
+            <h3>Connectivity</h3>
+            <ul>
+              <li>USB, Ethernet, Wi-Fi, Bluetooth</li>
+              <li>WWAN possible with compatible hardware</li>
+              <li>VGA/HDMI/DisplayPort depends on device outputs</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="btn small" href="index.html">Back Home</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

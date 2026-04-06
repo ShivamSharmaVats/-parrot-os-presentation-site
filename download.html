@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parrot OS | Download</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero compact" id="top">
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="history.html">History</a>
+      <a href="requirements.html">Requirements</a>
+      <a href="security.html">Security</a>
+      <a class="current" href="download.html">Download</a>
+    </nav>
+    <div class="hero-inner">
+      <p class="eyebrow">Parrot OS</p>
+      <h1>How To Download & Install</h1>
+      <div class="hero-actions">
+        <a class="btn" href="https://parrotsec.org/download/" target="_blank" rel="noopener">Official Download Site</a>
+        <a class="btn ghost" href="index.html">Back To Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <div class="grid two">
+        <article class="card media-card">
+          <img src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?auto=format&fit=crop&w=900&q=80" alt="USB install media" loading="lazy" />
+          <div>
+            <h2>Fast Steps</h2>
+            <ol>
+              <li>Open the official Parrot download page.</li>
+              <li>Pick Security or Home edition.</li>
+              <li>Download the ISO and verify checksums/signatures.</li>
+              <li>Write ISO to USB with Rufus, BalenaEtcher, or Ventoy.</li>
+              <li>Boot from USB, test live mode, then install.</li>
+            </ol>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Official Resources</h3>
+          <div class="card-actions stack resource-links">
+            <a class="btn outline" href="https://parrotsec.org/download/" target="_blank" rel="noopener">Official Download Page</a>
+            <a class="btn outline" href="https://parrotsec.org/docs/introduction/download-parrot/" target="_blank" rel="noopener">Official Download Docs</a>
+            <a class="btn outline" href="https://www.parrotsec.org/docs/installation/" target="_blank" rel="noopener">Official Installation Docs</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Install Videos By Platform</h2>
+      <div class="grid two">
+        <article class="card platform-card">
+          <h3>Install on macOS</h3>
+          <div class="video-wrap">
+            <video class="local-video platform-video" controls preload="metadata" playsinline poster="images/apple.jpeg">
+              <source src="videos/parrot-install-macos.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </article>
+        <article class="card platform-card">
+          <h3>Install on Windows</h3>
+          <div class="video-wrap">
+            <video class="local-video platform-video" controls preload="metadata" playsinline poster="images/intro-import.jpg">
+              <source src="videos/parrot-install-windows.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </article>
+      </div>
+      <article class="card full platform-card">
+        <h3>Install on Linux</h3>
+        <div class="video-wrap">
+          <video class="local-video platform-video" controls preload="metadata" playsinline poster="images/linux.jpeg">
+            <source src="videos/parrot-install-linux.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="btn small" href="index.html">Back Home</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

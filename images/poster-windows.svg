@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#081a2f"/>
+      <stop offset="100%" stop-color="#0d3f6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="110" y="100" width="1060" height="520" rx="24" fill="#09111a" stroke="#00b7ff" stroke-opacity="0.5"/>
+  <text x="640" y="340" fill="#e9f7ff" font-size="86" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700">Windows Install Video</text>
+  <text x="640" y="405" fill="#9fb4c9" font-size="38" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif">Click Play to Start</text>
+</svg>
